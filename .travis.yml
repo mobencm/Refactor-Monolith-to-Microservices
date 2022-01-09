@@ -22,7 +22,7 @@ script:
   - docker tag udagram-api-feed mobencm/udagram-api-feed:v1
   - docker tag udagram-frontend mobencm/udagram-frontend:v1
   - docker tag udagram-api-user mobencm/udagram-api-user:v1
-  - docker tag reverseproxy mobencm/reverseproxy:v1
+  - docker tag reverseproxy mobencm/udagram-reverseproxy:v1
 
 
 after_success:
