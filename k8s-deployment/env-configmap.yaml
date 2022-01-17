@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_MEDIA_BUCKET: udacitymiovision2
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: helloworld
+  POSTGRES_DATABASE: udacitymiovision
+  POSTGRES_HOST: udacitymiovision.crf7hczujwbx.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8080
+  PORT: "8080"
+metadata:
+  name: env-config
